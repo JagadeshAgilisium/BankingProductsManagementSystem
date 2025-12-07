@@ -7,4 +7,4 @@ python-jose[cryptography]
 python-multipart
 pandas
 email-validator
-bcrypt
+bcrypt==4.0.1
