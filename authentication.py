@@ -7,7 +7,7 @@ from fastapi.security import OAuth2PasswordBearer
 from config import settings
 
 crypto_ctx = CryptContext(schemes=["bcrypt"], deprecated="auto")
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 def get_password_hash(password):
     return crypto_ctx.hash(password)
