@@ -1,0 +1,12 @@
+class Settings:
+    PROJECT_NAME: str = "Banking Asset Inventory System"
+    VERSION: str = "1.0.0"
+    SECRET_KEY: str = "jagadesh_agilisium_10461"
+    ALGO: str = "HS256"
+    TOKEN_EXPIRE_MIN: int = 30
+    DB_URL: str = "sqlite:///./banking_products_inventory.db"
+    OWNER_NAME: str = "Jagadesh PJ"
+    EMP_ID : str = "10461"
+    EMAIL_ID : str = "jagadesh.jayaraman@agilisium.com"
+
+settings = Settings()
