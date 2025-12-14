@@ -2,7 +2,7 @@ import os
 class Settings:
     PROJECT_NAME: str = "Banking Asset Inventory System"
     VERSION: str = "1.0.0"
-    SECRET_KEY: str = os.getenv("SECRET_KEY")
+    SECRET_KEY: str = os.getenv("SECRET_KEY", "fallback_secret_key")
     ALGO: str = "HS256"
     TOKEN_EXPIRE_MIN: int = 30
     DB_URL: str = "sqlite:///./banking_products_inventory.db"
