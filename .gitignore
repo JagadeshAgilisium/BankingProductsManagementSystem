@@ -1,2 +1,3 @@
 __pycache__
 banking_products_inventory.db
+.env
